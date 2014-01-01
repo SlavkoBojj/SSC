@@ -2,6 +2,24 @@
 
 using namespace std;
 
+void m_Subtraction()
+{
+    // declaration
+    double s_FSEL;
+    double s_SSEL;
+
+    cout << "\n" << endl;
+    cout << "Enter two numbers, in correct form: ";
+    cin >> s_FSEL >> s_SSEL;
+
+    cout << "\n";
+
+    // solution
+    double s_SUM = s_FSEL - s_SSEL;
+
+    cout << "Your answer is " << s_SUM;
+}
+
 void m_Addition()
 {
     // declaration
@@ -29,6 +47,13 @@ void num_Selection()
 
     // the "m" in "m_Addition" means math
     if (s_Selection == 1){m_Addition();}
+    if (s_Selection == 2){m_Subtraction();}
+
+    if (s_Selection > 2)
+    {
+        cout << "Enter another number: ";
+        cin >> s_Selection;
+    }
 }
 
 int main()
