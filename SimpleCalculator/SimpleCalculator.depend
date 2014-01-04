@@ -1,4 +1,12 @@
 # depslib dependency file v1.0
-1388564989 source:c:\github\ssc\simplecalculator\main.cpp
+1388750447 source:c:\github\ssc\simplecalculator\main.cpp
 	<iostream>
+	<cmath>
+	<string>
+	<iomanip>
+	"conio.h"
+	<stdio.h>
+	<ctype.h>
+	<cstdlib>
+	<stdlib.h>
 
