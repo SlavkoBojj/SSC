@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1388750447 source:c:\github\ssc\simplecalculator\main.cpp
+1388799598 source:c:\github\ssc\simplecalculator\main.cpp
 	<iostream>
 	<cmath>
 	<string>
